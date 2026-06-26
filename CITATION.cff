@@ -5,7 +5,7 @@ authors:
   - family-names: "Onoda"
     given-names: "Hiro"
 date-released: "2026-06-26"
-version: "1.0.0"
+version: "1.0.1"
 repository-code: "https://github.com/andante-hadi/indonesia-pome-biocng-screening"
 abstract: "Code and open-data reproducibility package for province-level screening of POME-to-bio-CNG readiness in Indonesia using palm oil mill capacity and spatial clustering."
 keywords:
