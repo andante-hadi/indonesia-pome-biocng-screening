@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="720" viewBox="0 0 1100 720">
+<rect width="100%" height="100%" fill="white"/>
+<style>
+text{font-family:Arial, Helvetica, sans-serif; fill:#1f2933}
+.title{font-size:24px;font-weight:700}
+.subtitle{font-size:13px;fill:#6b7280}
+.axis{font-size:12px;fill:#6b7280}
+.label{font-size:12px}
+.small{font-size:11px;fill:#6b7280}
+</style>
+<text x="40" y="45" class="title">Province-level POME-to-bio-CNG screening potential</text>
+<text x="40" y="68" class="subtitle">Top provinces ranked by base recoverable biomethane potential from installed palm oil mill capacity</text>
+<line x1="235.0" y1="100" x2="235.0" y2="625" stroke="#d5d9df" stroke-width="1"/>
+<text x="235.0" y="649" text-anchor="middle" class="axis">0</text>
+<line x1="356.5" y1="100" x2="356.5" y2="625" stroke="#d5d9df" stroke-width="1"/>
+<text x="356.5" y="649" text-anchor="middle" class="axis">100</text>
+<line x1="478.0" y1="100" x2="478.0" y2="625" stroke="#d5d9df" stroke-width="1"/>
+<text x="478.0" y="649" text-anchor="middle" class="axis">200</text>
+<line x1="599.6" y1="100" x2="599.6" y2="625" stroke="#d5d9df" stroke-width="1"/>
+<text x="599.6" y="649" text-anchor="middle" class="axis">300</text>
+<line x1="721.1" y1="100" x2="721.1" y2="625" stroke="#d5d9df" stroke-width="1"/>
+<text x="721.1" y="649" text-anchor="middle" class="axis">400</text>
+<line x1="842.6" y1="100" x2="842.6" y2="625" stroke="#d5d9df" stroke-width="1"/>
+<text x="842.6" y="649" text-anchor="middle" class="axis">500</text>
+<line x1="964.1" y1="100" x2="964.1" y2="625" stroke="#d5d9df" stroke-width="1"/>
+<text x="964.1" y="649" text-anchor="middle" class="axis">600</text>
+<line x1="1085.7" y1="100" x2="1085.7" y2="625" stroke="#d5d9df" stroke-width="1"/>
+<text x="1085.7" y="649" text-anchor="middle" class="axis">700</text>
+<text x="632.5" y="685" text-anchor="middle" class="axis">Recoverable biomethane potential, base scenario (million Nm3/year)</text>
+<text x="223" y="122.9" text-anchor="end" class="label">Riau</text>
+<rect x="235" y="100.0" width="795.0" height="33.7" rx="3" fill="#1f8a70"/>
+<text x="1038.0" y="122.9" class="label">654.2</text>
+<text x="223" y="167.6" text-anchor="end" class="label">Kalimantan Tengah</text>
+<rect x="235" y="144.7" width="569.0" height="33.7" rx="3" fill="#1f8a70"/>
+<text x="812.0" y="167.6" class="label">468.2</text>
+<text x="223" y="212.2" text-anchor="end" class="label">Sumatera Utara</text>
+<rect x="235" y="189.3" width="529.0" height="33.7" rx="3" fill="#1f8a70"/>
+<text x="772.0" y="212.2" class="label">435.3</text>
+<text x="223" y="256.9" text-anchor="end" class="label">Kalimantan Barat</text>
+<rect x="235" y="234.0" width="419.6" height="33.7" rx="3" fill="#35a29f"/>
+<text x="662.6" y="256.9" class="label">345.2</text>
+<text x="223" y="301.6" text-anchor="end" class="label">Kalimantan Timur</text>
+<rect x="235" y="278.7" width="393.0" height="33.7" rx="3" fill="#35a29f"/>
+<text x="636.0" y="301.6" class="label">323.4</text>
+<text x="223" y="346.2" text-anchor="end" class="label">Sumatera Selatan</text>
+<rect x="235" y="323.3" width="341.5" height="33.7" rx="3" fill="#35a29f"/>
+<text x="584.5" y="346.2" class="label">281.0</text>
+<text x="223" y="390.9" text-anchor="end" class="label">Jambi</text>
+<rect x="235" y="368.0" width="278.1" height="33.7" rx="3" fill="#35a29f"/>
+<text x="521.1" y="390.9" class="label">228.8</text>
+<text x="223" y="435.6" text-anchor="end" class="label">Sumatera Barat</text>
+<rect x="235" y="412.7" width="134.7" height="33.7" rx="3" fill="#2f6fbb"/>
+<text x="377.7" y="435.6" class="label">110.9</text>
+<text x="223" y="480.2" text-anchor="end" class="label">Kalimantan Selatan</text>
+<rect x="235" y="457.3" width="132.8" height="33.7" rx="3" fill="#2f6fbb"/>
+<text x="375.8" y="480.2" class="label">109.3</text>
+<text x="223" y="524.9" text-anchor="end" class="label">Aceh</text>
+<rect x="235" y="502.0" width="127.3" height="33.7" rx="3" fill="#2f6fbb"/>
+<text x="370.3" y="524.9" class="label">104.8</text>
+<text x="223" y="569.6" text-anchor="end" class="label">Bengkulu</text>
+<rect x="235" y="546.7" width="101.1" height="33.7" rx="3" fill="#2f6fbb"/>
+<text x="344.1" y="569.6" class="label">83.2</text>
+<text x="223" y="614.2" text-anchor="end" class="label">Kep. Bangka Belitung</text>
+<rect x="235" y="591.3" width="97.6" height="33.7" rx="3" fill="#2f6fbb"/>
+<text x="340.6" y="614.2" class="label">80.3</text>
+</svg>

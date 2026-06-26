@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the archived release and the manuscript when available."
+title: "Indonesia POME-to-Bio-CNG Screening Reproducibility Package"
+authors:
+  - family-names: "Onoda"
+    given-names: "Hiro"
+date-released: "2026-06-26"
+version: "1.0.0"
+repository-code: "https://github.com/andante-hadi/indonesia-pome-biocng-screening"
+abstract: "Code and open-data reproducibility package for province-level screening of POME-to-bio-CNG readiness in Indonesia using palm oil mill capacity and spatial clustering."
+keywords:
+  - POME
+  - bio-CNG
+  - biomethane
+  - palm oil mill effluent
+  - Indonesia
+  - open data
+  - spatial screening
+license: MIT

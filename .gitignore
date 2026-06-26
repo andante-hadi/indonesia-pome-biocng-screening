@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Rproj.user/
+*.log
+*.tmp
+Rplots.pdf
+
+# Manuscript working files should not be added to the public code repository.
+*.docx
+*.pdf
+*_before_*.docx

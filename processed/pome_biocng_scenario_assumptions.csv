@@ -1,0 +1,4 @@
+scenario,operating_hours_per_year,pome_m3_per_tonne_ffb,cod_kg_per_m3,cod_removed_fraction,methane_yield_m3_per_kg_cod,upgrading_recovery_fraction,methane_lhv_mj_per_nm3,diesel_lhv_mj_per_l
+low,5000,0.6,45.0,0.7,0.25,0.9,35.8,38.6
+base,6000,0.7,55.0,0.8,0.3,0.95,35.8,38.6
+high,7000,0.8,62.0,0.9,0.35,0.98,35.8,38.6

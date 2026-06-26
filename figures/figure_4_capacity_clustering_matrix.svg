@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="760" viewBox="0 0 1050 760">
+<rect width="100%" height="100%" fill="white"/>
+<style>
+text{font-family:Arial, Helvetica, sans-serif; fill:#1f2933}
+.title{font-size:24px;font-weight:700}
+.subtitle{font-size:13px;fill:#6b7280}
+.axis{font-size:12px;fill:#6b7280}
+.label{font-size:12px}
+.small{font-size:11px;fill:#6b7280}
+</style>
+<text x="40" y="45" class="title">Capacity and spatial concentration of Indonesian palm oil mills</text>
+<text x="40" y="68" class="subtitle">Provinces above and to the right combine larger POME resource scale with stronger cluster potential</text>
+<line x1="115.0" y1="105" x2="115.0" y2="665" stroke="#d5d9df" stroke-width="1"/>
+<text x="115.0" y="689" text-anchor="middle" class="axis">0</text>
+<line x1="248.4" y1="105" x2="248.4" y2="665" stroke="#d5d9df" stroke-width="1"/>
+<text x="248.4" y="689" text-anchor="middle" class="axis">2000</text>
+<line x1="381.8" y1="105" x2="381.8" y2="665" stroke="#d5d9df" stroke-width="1"/>
+<text x="381.8" y="689" text-anchor="middle" class="axis">4000</text>
+<line x1="515.2" y1="105" x2="515.2" y2="665" stroke="#d5d9df" stroke-width="1"/>
+<text x="515.2" y="689" text-anchor="middle" class="axis">6000</text>
+<line x1="648.7" y1="105" x2="648.7" y2="665" stroke="#d5d9df" stroke-width="1"/>
+<text x="648.7" y="689" text-anchor="middle" class="axis">8000</text>
+<line x1="782.1" y1="105" x2="782.1" y2="665" stroke="#d5d9df" stroke-width="1"/>
+<text x="782.1" y="689" text-anchor="middle" class="axis">10000</text>
+<line x1="915.5" y1="105" x2="915.5" y2="665" stroke="#d5d9df" stroke-width="1"/>
+<text x="915.5" y="689" text-anchor="middle" class="axis">12000</text>
+<line x1="115" y1="665.0" x2="985" y2="665.0" stroke="#d5d9df" stroke-width="1"/>
+<text x="103" y="669.0" text-anchor="end" class="axis">0.00</text>
+<line x1="115" y1="525.0" x2="985" y2="525.0" stroke="#d5d9df" stroke-width="1"/>
+<text x="103" y="529.0" text-anchor="end" class="axis">0.25</text>
+<line x1="115" y1="385.0" x2="985" y2="385.0" stroke="#d5d9df" stroke-width="1"/>
+<text x="103" y="389.0" text-anchor="end" class="axis">0.50</text>
+<line x1="115" y1="245.0" x2="985" y2="245.0" stroke="#d5d9df" stroke-width="1"/>
+<text x="103" y="249.0" text-anchor="end" class="axis">0.75</text>
+<line x1="115" y1="105.0" x2="985" y2="105.0" stroke="#d5d9df" stroke-width="1"/>
+<text x="103" y="109.0" text-anchor="end" class="axis">1.00</text>
+<circle cx="116.0" cy="665.0" r="4.5" fill="#2f6fbb" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<circle cx="117.0" cy="665.0" r="4.6" fill="#2f6fbb" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<circle cx="117.0" cy="665.0" r="4.6" fill="#2f6fbb" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<circle cx="117.2" cy="665.0" r="4.7" fill="#2f6fbb" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<circle cx="118.3" cy="665.0" r="4.8" fill="#2f6fbb" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<circle cx="120.0" cy="665.0" r="5.0" fill="#2f6fbb" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<circle cx="121.0" cy="665.0" r="5.1" fill="#2f6fbb" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<circle cx="134.0" cy="385.0" r="6.0" fill="#2f6fbb" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<circle cx="136.3" cy="665.0" r="6.1" fill="#2f6fbb" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<circle cx="143.0" cy="665.0" r="6.4" fill="#2f6fbb" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<circle cx="153.4" cy="665.0" r="6.8" fill="#2f6fbb" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<circle cx="165.0" cy="185.1" r="7.2" fill="#2f6fbb" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<circle cx="174.7" cy="665.0" r="7.5" fill="#2f6fbb" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<circle cx="179.7" cy="451.6" r="7.6" fill="#2f6fbb" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<circle cx="187.4" cy="563.1" r="7.8" fill="#2f6fbb" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<circle cx="216.7" cy="304.9" r="8.6" fill="#2f6fbb" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<circle cx="220.4" cy="282.0" r="8.6" fill="#2f6fbb" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<circle cx="247.7" cy="254.0" r="9.2" fill="#1f8a70" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<text x="256.7" y="246.0" class="small">Aceh</text>
+<circle cx="253.4" cy="217.0" r="9.3" fill="#1f8a70" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<text x="262.4" y="209.0" class="small">Kalimantan Selatan</text>
+<circle cx="255.4" cy="189.0" r="9.4" fill="#1f8a70" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<text x="264.4" y="181.0" class="small">Sumatera Barat</text>
+<circle cx="404.8" cy="135.8" r="11.7" fill="#1f8a70" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<text x="413.8" y="127.8" class="small">Jambi</text>
+<circle cx="470.9" cy="288.1" r="12.5" fill="#1f8a70" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<text x="479.9" y="280.1" class="small">Sumatera Selatan</text>
+<circle cx="524.6" cy="316.1" r="13.1" fill="#1f8a70" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<text x="533.6" y="308.1" class="small">Kalimantan Timur</text>
+<circle cx="552.3" cy="311.1" r="13.4" fill="#1f8a70" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<text x="561.3" y="303.1" class="small">Kalimantan Barat</text>
+<circle cx="666.3" cy="139.7" r="14.6" fill="#1f8a70" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<text x="675.3" y="157.7" class="small">Sumatera Utara</text>
+<circle cx="708.0" cy="220.4" r="15.0" fill="#1f8a70" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<text x="717.0" y="212.4" class="small">Kalimantan Tengah</text>
+<circle cx="943.6" cy="136.9" r="17.0" fill="#1f8a70" fill-opacity="0.78" stroke="white" stroke-width="1.5"/>
+<text x="952.6" y="154.9" class="small">Riau</text>
+<text x="550.0" y="725" text-anchor="middle" class="axis">Installed FFB processing capacity (tonnes FFB/hour)</text>
+<text x="25" y="385.0" transform="rotate(-90 25,385.0)" text-anchor="middle" class="axis">Share of mills with at least 3 neighbors within 25 km</text>
+</svg>

@@ -1,0 +1,8 @@
+dplyr
+ggplot2
+jsonlite
+ragg
+readr
+scales
+svglite
+tidyr
