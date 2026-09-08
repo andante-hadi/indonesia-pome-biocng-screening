@@ -1,0 +1,6 @@
+x_variable,y_variable,spearman_rho,p_value,n_provinces
+base biomethane potential,mean neighbors within 25 km,0.893,0.0000,27
+base biomethane potential,share of mills with at least three neighbors within 25 km,0.818,0.0000,27
+base biomethane potential,median nearest-neighbor distance,-0.768,0.0000,24
+installed capacity,mean neighbors within 25 km,0.893,0.0000,27
+installed capacity,share of mills with at least three neighbors within 25 km,0.818,0.0000,27

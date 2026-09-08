@@ -7,6 +7,7 @@ Included data:
 - Trase Indonesia palm oil mill GeoJSON used as the primary mill-location and capacity source.
 - Natural Earth country boundary GeoJSON used for the Indonesia map.
 - Derived CSV tables generated from the open inputs.
+- Monte Carlo uncertainty, rank-stability, and correlation-test CSV outputs generated from the screening results.
 - Final figure files generated from the included scripts.
 
 Excluded data:

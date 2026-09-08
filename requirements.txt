@@ -1,1 +1,2 @@
-# Python scripts use only the Python standard library.
+numpy
+scipy

@@ -13,6 +13,7 @@ script_arg <- grep("^--file=", commandArgs(), value = TRUE)
 script_path <- normalizePath(sub("^--file=", "", script_arg[[1]]))
 base_dir <- dirname(dirname(script_path))
 results_path <- file.path(base_dir, "processed", "province_pome_biocng_screening_results.csv")
+mc_path <- file.path(base_dir, "processed", "pome_biocng_monte_carlo_province_summary.csv")
 mills_path <- file.path(base_dir, "processed", "trase_indonesia_palm_oil_mills.csv")
 boundary_path <- file.path(base_dir, "raw", "natural_earth_ne_50m_admin_0_countries.geojson")
 figure_dir <- file.path(base_dir, "figures")
@@ -115,6 +116,10 @@ extract_indonesia_polygons <- function(path) {
 
 results <- read_csv(results_path, show_col_types = FALSE) %>%
   arrange(biomethane_rank) %>%
+  mutate(province = nice_province(province_name))
+
+mc_results <- read_csv(mc_path, show_col_types = FALSE) %>%
+  arrange(as.numeric(deterministic_rank)) %>%
   mutate(province = nice_province(province_name))
 
 mills <- read_csv(mills_path, show_col_types = FALSE) %>%
@@ -258,42 +263,44 @@ figure_2 <- ggplot(top_12, aes(base_biomethane_million_nm3, province, fill = tie
     panel.grid.major.y = element_blank()
   )
 
-top_10_long <- results %>%
+top_10_mc <- mc_results %>%
   slice_head(n = 10) %>%
-  select(
-    province,
-    Low = low_biomethane_million_nm3,
-    Base = base_biomethane_million_nm3,
-    High = high_biomethane_million_nm3
-  ) %>%
-  mutate(province = factor(province, levels = province)) %>%
-  pivot_longer(c(Low, Base, High), names_to = "scenario", values_to = "biomethane") %>%
-  mutate(scenario = factor(scenario, levels = c("Low", "Base", "High")))
+  mutate(
+    province = factor(province, levels = province),
+    top5_label = paste0(round(top5_probability * 100), "%")
+  )
 
-figure_3 <- ggplot(top_10_long, aes(province, biomethane, fill = scenario)) +
-  geom_col(position = position_dodge(width = 0.78), width = 0.70) +
-  scale_fill_manual(
-    values = c(
-      "Low" = palette[["pale_blue"]],
-      "Base" = palette[["teal"]],
-      "High" = palette[["green"]]
-    )
+figure_3 <- ggplot(top_10_mc, aes(province, mc_p50_biomethane_million_nm3)) +
+  geom_linerange(
+    aes(
+      ymin = mc_p05_biomethane_million_nm3,
+      ymax = mc_p95_biomethane_million_nm3
+    ),
+    linewidth = 1.25,
+    color = palette[["blue"]]
+  ) +
+  geom_point(size = 3.0, color = palette[["green"]]) +
+  geom_text(
+    aes(
+      y = mc_p95_biomethane_million_nm3 + 43,
+      label = top5_label
+    ),
+    family = "sans",
+    size = 3.7,
+    color = palette[["ink"]]
   ) +
   scale_y_continuous(
-    limits = c(0, 1400),
-    breaks = seq(0, 1400, 200),
+    limits = c(0, 900),
+    breaks = seq(0, 900, 100),
     expand = expansion(mult = c(0, 0.01))
   ) +
   labs(
     x = NULL,
-    y = expression("Recoverable biomethane (million Nm"^3*"/year)"),
-    fill = "Scenario"
+    y = expression("Recoverable biomethane (million Nm"^3*"/year)")
   ) +
   theme_manuscript() +
   theme(
     axis.text.x = element_text(angle = 38, hjust = 1, vjust = 1),
-    legend.position = "top",
-    legend.justification = "right",
     panel.grid.major.x = element_blank()
   )
 
